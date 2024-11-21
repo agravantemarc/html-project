@@ -1,0 +1,165 @@
+body {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background for main page */
+}
+.button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.button.blue {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+}
+.button.pink {
+    background-color: #FF69B4; /* Pink background */
+    color: white;
+}
+.button.brown {
+    background-color: #8B4513; /* Brown background */
+    color: white;
+}
+.ReturnPink {
+    background-color: #FFBCBC;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.ReturnBlue {
+    background-color: #81DAE3;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.ReturnBrown {
+    background-color: #FFB26F;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.button:hover {
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+.blue-theme {
+    background-color: #5BBCFF; /* Light blue */
+    color: #004d40; /* Dark teal */
+}
+.pink-theme {
+    background-color: #FF76CE; /* Light pink */
+    color: #880e4f; /* Dark pink */
+}
+.brown-theme {
+    background-color: #9A7E6F; /* Light beige */
+    color: #3e2723; /* Dark brown */
+}
+
+.pages {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #5BBCFF; /* Light blue */
+    color: #004d40; /* Dark teal */
+}
+
+.pages-brown {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Times New Roman', serif;
+    background-color: #9A7E6F; /* Light beige */
+    color: #3e2723; /* Dark brown */
+    font-size: 28px; /* Larger text for readability */
+}
+
+.dako {
+    font-size: 56px; /* Increased font size for main heading */
+    margin-bottom: 20px;
+}
+
+.dako2 {
+    font-size: 48px; /* Increased font size for subheadings */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #5d4037; /* Darker brown for subheadings */
+}
+
+.dako1 {
+    font-size: 32px; /* Larger font size for paragraphs */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.dako3 {
+    list-style-type: square; /* Square bullets for the list */
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px; /* Limit width for better readability */
+}
+
+.dako4 {
+    font-size: 28px; /* Larger font size for list items */
+    margin: 10px 0;
+}
+
+.pages-pink {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #FF76CE; /* Light blue */
+    color: #880e4f; /* Dark teal */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #003366; /* Darker blue for subheadings */
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square; /* Square bullets for the list */
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px; /* Limit width for better readability */
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
